@@ -3,4 +3,7 @@
     <string name="explore">探検</string>
     <string name="trip">旅行</string>
     <string name="diary">日記</string>
+    <string name="title_activity_main2">MainActivity2</string>
+    <string name="tab_text_1">Tab 1</string>
+    <string name="tab_text_2">Tab 2</string>
 </resources>
