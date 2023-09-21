@@ -11,17 +11,17 @@ import android.view.MenuItem;
 import android.view.View;
 
 import com.example.spring32.ui.main.SectionsPagerAdapter;
-import com.example.spring32.databinding.ActivityMainBinding;
+import com.example.spring32.databinding.ActivityMain2Binding;
 
-public class MainActivity extends AppCompatActivity {
+public class Explore2 extends AppCompatActivity {
 
-    private ActivityMainBinding binding;
+    private ActivityMain2Binding binding;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
-        binding = ActivityMainBinding.inflate(getLayoutInflater());
+        binding = ActivityMain2Binding.inflate(getLayoutInflater());
         setContentView(binding.getRoot());
 
         SectionsPagerAdapter sectionsPagerAdapter = new SectionsPagerAdapter(this, getSupportFragmentManager());
